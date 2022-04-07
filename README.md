@@ -1,2 +1,2 @@
-# template_repo
-A template repo that we will use to create new repositories
+# emacscore: Extended Morality as Cooperation Dictionary Scoring for Python
+Descriptions soon...
