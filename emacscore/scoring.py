@@ -27,7 +27,7 @@ from spacy.lang.en import English
 nlp = English()
 
 import progressbar
-from load_macd import *
+from emacscore.load_macd import *
 
 
 
