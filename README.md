@@ -1,2 +1,2 @@
-### emacscore: Extended Morality as Cooperation Dictionary Scoring for Python
-Descriptions soon...
+## emacscore: Extended Morality as Cooperation Dictionary Scoring for Python
+
