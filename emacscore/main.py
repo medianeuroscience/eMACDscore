@@ -2,7 +2,7 @@ import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 import pandas as pd
 import argparse
-from scoring import score_docs
+from emacscore.scoring import score_docs
 
 parser = argparse.ArgumentParser(description='Extract moral informtion from textual documents with emacscore.')
 
