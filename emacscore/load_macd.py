@@ -3,12 +3,17 @@ import warnings
 import pandas as pd
 import os
 warnings.simplefilter(action='ignore', category=FutureWarning)
+import pickle5 as pickle
 
 # Define path for module to allow dict imports. 
 fileDir = os.path.dirname(os.path.abspath(__file__))
 
 # Load E-MAC
-emac = pd.read_pickle(fileDir+'/dictionaries/emac_scoring.pkl')
+#emac = pd.read_pickle(fileDir+'/dictionaries/emac_scoring.pkl')
+
+with open(fileDir+'/dictionaries/emac_scoring.pkl', "rb") as em:
+  emac = pickle.load(em)
+
 probabilites = [c for c in emac.columns if c.endswith('_p')]
 domains = ['fairness','group','deference','heroism', 'reciprocity', 'family', 'property']
 senti = [c for c in emac.columns if c.endswith('_sent')]
