@@ -15,6 +15,7 @@ setup(name='emacscore',
           'progressbar2',
           'sklearn',
           'nltk',
-          'numpy'
+          'numpy',
+          'pickle5' 
       ],
       zip_safe=False)
