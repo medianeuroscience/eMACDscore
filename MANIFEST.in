@@ -1,0 +1,3 @@
+include README.md 
+include emacscore/dictionaries/*
+include emacscore/template_input.csv
