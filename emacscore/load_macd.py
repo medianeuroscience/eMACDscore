@@ -21,13 +21,23 @@ emac = emac.T.to_dict()
 
 
 # Load eMAC-all-vice-virtue
-emac_all_vice_virtue = pd.read_pickle(fileDir+'/dictionaries/emac_all_vice_virtue.pkl')
+with open(fileDir+'/dictionaries/emac_all_vice_virtue.pkl', "rb") as emavv:
+  emac_all_vice_virtue = pickle.load(emavv)
+
+#emac_all_vice_virtue = pd.read_pickle(fileDir+'/dictionaries/emac_all_vice_virtue.pkl')
 
 # Load eMAC-single-vice-virtue
-emac_single_vice_virtue = pd.read_pickle(fileDir+'/dictionaries/emac_single_vice_virtue.pkl')
+
+with open(fileDir+'/dictionaries/emac_single_vice_virtue.pkl', "rb") as emsvv:
+  emac_single_vice_virtue = pickle.load(emsvv)
+  
+#emac_single_vice_virtue = pd.read_pickle(fileDir+'/dictionaries/emac_single_vice_virtue.pkl')
 
 # Load eMAC-single-sent
-emac_single_sent = pd.read_pickle(fileDir+'/dictionaries/emac_single_sent.pkl')
+with open(fileDir+'/dictionaries/emac_single_sent.pkl', "rb") as emsent:
+  emac_single_sent = pickle.load(emsent)
+  
+#emac_single_sent = pd.read_pickle(fileDir+'/dictionaries/emac_single_sent.pkl')
 
 
 
