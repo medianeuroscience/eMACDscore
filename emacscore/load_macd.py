@@ -9,10 +9,8 @@ import pickle5 as pickle
 fileDir = os.path.dirname(os.path.abspath(__file__))
 
 # Load E-MAC
-#emac = pd.read_pickle(fileDir+'/dictionaries/emac_scoring.pkl')
+emac = pd.read_pickle(fileDir+'/dictionaries/emac_scoring.pkl')
 
-with open(fileDir+'/dictionaries/emac_scoring.pkl', "rb") as em:
-  emac = pickle.load(em)
 
 probabilites = [c for c in emac.columns if c.endswith('_p')]
 domains = ['fairness','group','deference','heroism', 'reciprocity', 'family', 'property']
@@ -21,23 +19,13 @@ emac = emac.T.to_dict()
 
 
 # Load eMAC-all-vice-virtue
-with open(fileDir+'/dictionaries/emac_all_vice_virtue.pkl', "rb") as emavv:
-  emac_all_vice_virtue = pickle.load(emavv)
-
-#emac_all_vice_virtue = pd.read_pickle(fileDir+'/dictionaries/emac_all_vice_virtue.pkl')
+emac_all_vice_virtue = pd.read_pickle(fileDir+'/dictionaries/emac_all_vice_virtue.pkl')
 
 # Load eMAC-single-vice-virtue
-
-with open(fileDir+'/dictionaries/emac_single_vice_virtue.pkl', "rb") as emsvv:
-  emac_single_vice_virtue = pickle.load(emsvv)
-  
-#emac_single_vice_virtue = pd.read_pickle(fileDir+'/dictionaries/emac_single_vice_virtue.pkl')
+emac_single_vice_virtue = pd.read_pickle(fileDir+'/dictionaries/emac_single_vice_virtue.pkl')
 
 # Load eMAC-single-sent
-with open(fileDir+'/dictionaries/emac_single_sent.pkl', "rb") as emsent:
-  emac_single_sent = pickle.load(emsent)
-  
-#emac_single_sent = pd.read_pickle(fileDir+'/dictionaries/emac_single_sent.pkl')
+emac_single_sent = pd.read_pickle(fileDir+'/dictionaries/emac_single_sent.pkl')
 
 
 
