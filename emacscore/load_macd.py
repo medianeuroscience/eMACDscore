@@ -3,7 +3,6 @@ import warnings
 import pandas as pd
 import os
 warnings.simplefilter(action='ignore', category=FutureWarning)
-import pickle5 as pickle
 
 # Define path for module to allow dict imports. 
 fileDir = os.path.dirname(os.path.abspath(__file__))
