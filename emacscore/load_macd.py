@@ -5,7 +5,7 @@ import os
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 # Define path for module to allow dict imports. 
-fileDir = os.getcwd()
+fileDir = os.path.dirname(os.path.abspath(__file__))
 
 # Load E-MAC
 emac = pd.read_pickle(fileDir+'/dictionaries/emac_scoring.pkl')
