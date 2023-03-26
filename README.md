@@ -39,9 +39,10 @@ emacscore can also be run in [google colab](https://colab.research.google.com/no
 
 ```
 !pip install -U pip setuptools wheel
-!pip install -U spacy
+!pip uninstall spacy
+!pip install -v "spacy == 3.4.0"
 !python -m spacy download en_core_web_sm
-!pip install git+https://github.com/medianeuroscience/emacscore.git
+!pip install emacscore-master.zip  #currently need to download as local file as repo is private. will be changed to https:// link in future.
 ```
 
 You can then use **emacscore** as a regular python library.
