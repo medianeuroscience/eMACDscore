@@ -3,7 +3,7 @@
 
 **emacscore** provides a novel extension to existing moral mining tools for the fast and flexible extraction of various moral information metrics from textual input data. emacscore adopts the theoretical perspective of [Morality as Cooperation](https://doi.org/10.1007/978-3-319-19671-8_2) and is constructed based on crowd-sourced textual highlights as pioneered with the popular [emfdscore](https://github.com/medianeuroscience/emfdscore). **emacscore** lets users score documents with **multiple Morality as Cooperation Dictionaries** and provides various metrics for analyzing moral information. 
 
-**emacscore** is **currently in beta phase** and **under active development**. We do NOT recommend using this tool for research purposes right now. This section will be updated with more information once the beta phase has succesfully concluded.
+**emacscore** is **currently in beta phase**. We do NOT recommend using this tool for research purposes right now. This section will be updated with more information once the beta phase has succesfully concluded.
 
 ## Install 
 **emacscore** requires a Python installation (v3.7+). If your machine does not have Python installed, we recommend installing Python by downloading and installing either [Anaconda or Miniconda](https://docs.conda.io/projects/continuumio-conda/en/latest/user-guide/install/index.html) for your OS.
