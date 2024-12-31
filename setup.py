@@ -13,7 +13,6 @@ setup(name='emacscore',
       install_requires=[
           'pandas',
           'progressbar2',
-          'sklearn',
           'nltk',
           'numpy' 
       ],
