@@ -110,7 +110,7 @@ def score_emac_all_sent(doc):
         except ZeroDivisionError:
             emac_score['moral_nonmoral_ratio'] = len(moral_words) / 1
     else:
-        emac_score = {k: 0 for k in probabilites_emac + senti_emac}
+        emac_score = {k: 0 for k in probabilites + senti}
         nonmoral_words = len(doc) - len(moral_words)
         try:
             emac_score['moral_nonmoral_ratio'] = len(moral_words) / nonmoral_words
