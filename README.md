@@ -40,7 +40,7 @@ eMACDscore can also be run in [google colab](https://colab.research.google.com/n
 !pip uninstall spacy
 !pip install -v "spacy == 3.4.0"
 !python -m spacy download en_core_web_sm
-!pip install emacscore-master.zip  #currently need to download as local file as repo is private. will be changed to https:// link in future.
+!pip install emacscore-master.zip
 ```
 
 You can then use **eMACDscore** as a regular python library.
