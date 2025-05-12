@@ -3,6 +3,10 @@
 
 **eMACDscore** provides a novel extension to existing moral mining tools for the fast and flexible extraction of various moral information metrics from textual input data. eMACDscore adopts the theoretical perspective of [Morality as Cooperation](https://doi.org/10.1007/978-3-319-19671-8_2) and is constructed based on crowd-sourced textual highlights as pioneered with the popular [eMFDscore](https://github.com/medianeuroscience/emfdscore). **eMACDscore** lets users score documents with **multiple Morality as Cooperation Dictionaries** and provides various metrics for analyzing moral information. 
 
+When using eMACDscore, please consider giving this repository a star (top right corner) and citing the associated publication (currently in press)
+
+eMACDscore is dual-licensed under GNU GENERAL PUBLIC LICENSE 3.0, which permits the non-commercial use, distribution, and modification of the eMACDscore package. Commercial use of the eMACDscore requires an application.
+
 ## Install 
 **eMACDscore** requires a Python installation (v3.11+). If your machine does not have Python installed, we recommend installing Python by downloading and installing either [Anaconda or Miniconda](https://docs.conda.io/projects/continuumio-conda/en/latest/user-guide/install/index.html) for your OS.
 
