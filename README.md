@@ -7,7 +7,7 @@ When using eMACDscore, please consider giving this repository a star (top right 
 
 eMACDscore is dual-licensed under GNU GENERAL PUBLIC LICENSE 3.0, which permits the non-commercial use, distribution, and modification of the eMACDscore package. Commercial use of the eMACDscore requires an application.
 
-If you have any questions and/or require additional assistance with running the package, feel free to connect directly with the project maintainer, Musa Malik, via their [LinkedIn](https://www.linkedin.com/in/musainayatmalik/). 
+If you have any questions and/or require additional assistance with running the package, feel free to connect directly with the package maintainer, **Musa Malik**, via their [LinkedIn](https://www.linkedin.com/in/musainayatmalik/). 
 
 ## Install 
 **eMACDscore** requires a Python installation (v3.11+). If your machine does not have Python installed, we recommend installing Python by downloading and installing either [Anaconda or Miniconda](https://docs.conda.io/projects/continuumio-conda/en/latest/user-guide/install/index.html) for your OS.
