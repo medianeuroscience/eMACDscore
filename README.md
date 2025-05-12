@@ -5,7 +5,8 @@
 
 When using eMACDscore, please consider giving this repository a star (top right corner) and citing the associated publication (currently in press; will be updated shortly)
 
-eMACDscore is dual-licensed under GNU GENERAL PUBLIC LICENSE 3.0, which permits the non-commercial use, distribution, and modification of the eMACDscore package.
+eMACDscore is dual-licensed under GNU GENERAL PUBLIC LICENSE 3.0, which permits the non-commercial use, distribution, and modification of the eMACDscore package. Commercial use of eMACDscore requires approval from the [Media Neuroscience Lab
+](https://www.medianeuroscience.org/).
 
 If you have any questions and/or require additional assistance with running the package, feel free to connect directly with the package maintainer, **Musa Malik**, via their [LinkedIn](https://www.linkedin.com/in/musainayatmalik/). 
 
