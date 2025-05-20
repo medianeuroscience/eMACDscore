@@ -3,7 +3,10 @@
 
 **eMACDscore** provides a novel extension to existing moral mining tools for the fast and flexible extraction of various moral information metrics from textual input data. eMACDscore adopts the theoretical perspective of [Morality as Cooperation](https://doi.org/10.1007/978-3-319-19671-8_2) and is constructed based on crowd-sourced textual highlights as pioneered with the popular [eMFDscore](https://github.com/medianeuroscience/emfdscore). eMACDscore lets users score documents with multiple Morality as Cooperation Dictionaries and provides various metrics for analyzing moral information. 
 
-When using eMACDscore, please consider giving this repository a star (top right corner) and citing the associated publication (currently in press; will be updated shortly)
+When using eMACDscore, please consider giving this repository a star (top right corner) and citing the associated publication:
+
+
+Malik, M., Youk, S., Hopp, F. R., Curry, O. S., Cheong, M., Alfano, M., & Weber, R. (2025). The Extended Morality as Cooperation Dictionary (eMACD): A Crowd-Sourced Approach via the Moral Narrative Analyzer Platform. Communication Methods and Measures, 1–31. https://doi.org/10.1080/19312458.2025.2500329
 
 eMACDscore is dual-licensed under GNU GENERAL PUBLIC LICENSE 3.0, which permits the non-commercial use, distribution, and modification of the eMACDscore package. Commercial use of eMACDscore requires approval from the [Media Neuroscience Lab](https://www.medianeuroscience.org/).
 
