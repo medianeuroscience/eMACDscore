@@ -6,7 +6,7 @@
 When using eMACDscore, please consider giving this repository a star (top right corner) and citing the associated publication:
 
 
-Malik, M., Youk, S., Hopp, F. R., Curry, O. S., Cheong, M., Alfano, M., & Weber, R. (2025). The Extended Morality as Cooperation Dictionary (eMACD): A Crowd-Sourced Approach via the Moral Narrative Analyzer Platform. Communication Methods and Measures, 1–31. https://doi.org/10.1080/19312458.2025.2500329
+Malik, M., Youk, S., Hopp, F. R., Curry, O. S., Cheong, M., Alfano, M., & Weber, R. (2025). The Extended Morality as Cooperation Dictionary (eMACD): A Crowd-Sourced Approach via the Moral Narrative Analyzer Platform. *Communication Methods and Measures*, 1–31. https://doi.org/10.1080/19312458.2025.2500329
 
 eMACDscore is dual-licensed under GNU GENERAL PUBLIC LICENSE 3.0, which permits the non-commercial use, distribution, and modification of the eMACDscore package. Commercial use of eMACDscore requires approval from the [Media Neuroscience Lab](https://www.medianeuroscience.org/).
 
