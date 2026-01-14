@@ -177,7 +177,7 @@ if not Doc.has_extension("score_emac_all_vice_virtue"):
 @Language.component("score_emac_all_vice_virtue")
 def score_emac_all_vice_virtue(doc):
     
-    """Scores documents with the eMAC, where each word is assigned ten vice-virtue scores."""
+    """Scores documents with the eMAC, where each word is assigned fourteen vice-virtue scores."""
     
     mac_domains = ['fairness.virtue', 'group.virtue', 'deference.virtue',
        'heroism.virtue','reciprocity.virtue', 'family.virtue', 'property.virtue',
