@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='emacscore',
-      version='0.0.1',
+      version='0.0.2',
       description='Extended Morality as Cooperation Dictionary for Python',
       url='https://github.com/medianeuroscience/emacscore',
       author='Anonymized.',
