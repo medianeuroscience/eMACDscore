@@ -13,13 +13,13 @@ parser.add_argument('dict_type', metavar='dict_version', nargs='+', type=str, de
                     help='Dictionary for scoring. Possible values are: emac, macd')
                     
 parser.add_argument('prob_map', metavar='prob_map', nargs='+', type=str, default='all',
-                    help='eMAC only. Assigns either five moral probabilities (all) or only the highest probability (single) to each word. Possible values are: all, single')
+                    help='eMAC only. Assigns either seven moral probabilities (all) or only the highest probability (single) to each word. Possible values are: all, single')
 
 parser.add_argument('score_method', metavar='scoring_method', nargs='+', type=str, default='bow',
-                    help='Text scoring method. Possible values are: bow, wordlist, pat')
+                    help='Text scoring method. Possible values are: bow')
                     
 parser.add_argument('output_metrics', metavar='output_metrics', nargs='+', type=str, default='sentiment',
-                    help='eMAC only. Either returns an average sentiment score for each foundation (sentiment) or splits each foundation into a vice/virtue category (vice-virtue).Possible values are: sentiment, vice-virtue')
+                    help='eMAC only. Either returns an average sentiment score for each domain (sentiment) or splits each domain into a vice/virtue category (vice-virtue). Possible values are: sentiment, vice-virtue')
 
 parser.add_argument('output_csv', metavar='outfile', nargs='+', type=str,
                     help='The path/name for the scored output CSV.')
@@ -39,7 +39,7 @@ if infile_type == 'csv':
     num_docs = len(csv)
 
 else:
-    print('Input file type not recognized! Must either be CSV for scoring method bow, wordlist, and pat')
+    print('Input file type not recognized! Must be CSV for scoring method bow')
 
 print("Running eMACscore")
 print("Total number of input texts to be scored:", num_docs)
