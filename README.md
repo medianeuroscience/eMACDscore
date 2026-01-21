@@ -10,7 +10,7 @@ Malik, M., Youk, S., Hopp, F. R., Curry, O. S., Cheong, M., Alfano, M., & Weber,
 
 eMACDscore is dual-licensed under GNU GENERAL PUBLIC LICENSE 3.0, which permits the non-commercial use, distribution, and modification of the eMACDscore package. Commercial use of eMACDscore requires approval from the [Media Neuroscience Lab](https://www.medianeuroscience.org/).
 
-If you have any questions and/or require additional assistance with running the package, feel free to connect directly with the package maintainer, **Musa Malik**, via their [LinkedIn](https://www.linkedin.com/in/musainayatmalik/). 
+If you have any questions and/or require additional assistance with running the package, feel free to connect directly with the package maintainer, **Musa Malik**, via their [LinkedIn](https://www.linkedin.com/in/musainayatmalik/), or sending an email at [musamalik@ucsb.edu](musamalik@ucsb.edu).
 
 ## Install 
 **eMACDscore** requires a Python installation (v3.11+). If your machine does not have Python installed, we recommend installing Python by downloading and installing either [Anaconda or Miniconda](https://docs.conda.io/projects/continuumio-conda/en/latest/user-guide/install/index.html) for your OS.
